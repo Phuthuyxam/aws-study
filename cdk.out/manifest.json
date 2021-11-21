@@ -1,0 +1,62 @@
+{
+  "version": "14.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "VpcStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "VpcStack.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/VpcStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (/Users/phuthuyxam/Desktop/study/aws/code/cdk/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:22:24)",
+              "/Users/phuthuyxam/Desktop/study/aws/code/cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:166:5",
+              "visit (/Users/phuthuyxam/Desktop/study/aws/code/cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:231:5)",
+              "visit (/Users/phuthuyxam/Desktop/study/aws/code/cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:227:5)",
+              "injectMetadataResources (/Users/phuthuyxam/Desktop/study/aws/code/cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:157:3)",
+              "Object.synthesize (/Users/phuthuyxam/Desktop/study/aws/code/cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/Users/phuthuyxam/Desktop/study/aws/code/cdk/node_modules/@aws-cdk/core/lib/stage.ts:94:23)",
+              "process.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/cdk/node_modules/@aws-cdk/core/lib/app.ts:64:45)",
+              "Object.onceWrapper (events.js:520:26)",
+              "process.emit (events.js:400:28)",
+              "process.emit (domain.js:475:12)",
+              "process.emit (/Users/phuthuyxam/Desktop/study/aws/code/cdk/node_modules/source-map-support/source-map-support.js:516:21)"
+            ]
+          }
+        ],
+        "/VpcStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (/Users/phuthuyxam/Desktop/study/aws/code/cdk/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:31:27)",
+              "/Users/phuthuyxam/Desktop/study/aws/code/cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:166:5",
+              "visit (/Users/phuthuyxam/Desktop/study/aws/code/cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:231:5)",
+              "visit (/Users/phuthuyxam/Desktop/study/aws/code/cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:227:5)",
+              "injectMetadataResources (/Users/phuthuyxam/Desktop/study/aws/code/cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:157:3)",
+              "Object.synthesize (/Users/phuthuyxam/Desktop/study/aws/code/cdk/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/Users/phuthuyxam/Desktop/study/aws/code/cdk/node_modules/@aws-cdk/core/lib/stage.ts:94:23)",
+              "process.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/cdk/node_modules/@aws-cdk/core/lib/app.ts:64:45)",
+              "Object.onceWrapper (events.js:520:26)",
+              "process.emit (events.js:400:28)",
+              "process.emit (domain.js:475:12)",
+              "process.emit (/Users/phuthuyxam/Desktop/study/aws/code/cdk/node_modules/source-map-support/source-map-support.js:516:21)"
+            ]
+          }
+        ]
+      },
+      "displayName": "VpcStack"
+    }
+  }
+}
