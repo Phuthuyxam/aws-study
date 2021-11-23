@@ -1,17 +1,20 @@
+import * as cdk from '@aws-cdk/core';
 import { Peer, Port, SecurityGroup } from "@aws-cdk/aws-ec2";
-import { VpcStackIpml } from "./implements/vpcStackIpml";
+import { VpcStackProps } from "./interfaces/vpcStackInterface";
 
-export class SgStack {
-    adapterVpcStack: VpcStackIpml;
+export class SgStack extends cdk.Stack{
     basTionSg: SecurityGroup;
     albSg: SecurityGroup;
     webServerSg: SecurityGroup;
-    constructor(vpcStack : VpcStackIpml) {
-        this.adapterVpcStack = vpcStack;
+    constructor(scope: cdk.Construct,
+        id: string,
+        props: VpcStackProps) {
+            
+        super(scope, id, props);
         
         // register bastion sg
-        const bastion = new SecurityGroup(vpcStack, 'bastion-sg', {
-            vpc: vpcStack.vpcStack(),
+        const bastion = new SecurityGroup(this, 'bastion-sg', {
+            vpc: props.vpc,
             allowAllOutbound: true
         });
 
@@ -19,20 +22,29 @@ export class SgStack {
         this.basTionSg = bastion;
 
         // register load balencer sg
-        const alb = new SecurityGroup(vpcStack, 'alb-sg', {
-            vpc: vpcStack.vpcStack(),
+        const alb = new SecurityGroup(this, 'alb-sg', {
+            vpc: props.vpc,
             allowAllOutbound: true
         });
         alb.addIngressRule(Peer.anyIpv4(), Port.tcp(80));
         this.albSg = alb;
 
         // register webserver
-        const webserver = new SecurityGroup(vpcStack, 'alb-sg', {
-            vpc: vpcStack.vpcStack(),
+        const webserver = new SecurityGroup(this, 'webserver-sg', {
+            vpc: props.vpc,
             allowAllOutbound: true
         });
         webserver.connections.allowFrom(bastion, Port.tcp(22));
         webserver.connections.allowFrom(alb, Port.tcp(80));
         this.webServerSg = webserver;
+    }
+    getBastionSg() {
+        return this.basTionSg;
+    }
+    getAlbSg() {
+        return this.albSg;
+    }
+    getWebServerSg() {
+        return this.webServerSg;
     }
 }
