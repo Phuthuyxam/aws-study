@@ -8,8 +8,12 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 ## Tutorial  
 See [this useful workshop](https://cdkworkshop.com/20-typescript.html) on working with the AWS CDK for Typescript projects.
 
+create a key pair with name "ec2-key-pair" on console
 
 ## Useful commands
+
+* `cdk deploy --all` deploy all service
+* `cdk destroy --all` destroy all service
 
  * `npm run build`   compile typescript to js
  * `npm run watch`   watch for changes and compile
