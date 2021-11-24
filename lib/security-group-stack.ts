@@ -6,6 +6,7 @@ export class SgStack extends cdk.Stack{
     basTionSg: SecurityGroup;
     albSg: SecurityGroup;
     webServerSg: SecurityGroup;
+    autoScalingSg: SecurityGroup;
     constructor(scope: cdk.Construct,
         id: string,
         props: VpcStackProps) {
@@ -37,6 +38,9 @@ export class SgStack extends cdk.Stack{
         webserver.connections.allowFrom(bastion, Port.tcp(22));
         webserver.connections.allowFrom(alb, Port.tcp(80));
         this.webServerSg = webserver;
+
+        this.autoScalingSg = new SecurityGroup(this, 'autoScaling-sg', { vpc : props.vpc, allowAllOutbound: true });
+
     }
     getBastionSg() {
         return this.basTionSg;
@@ -46,5 +50,8 @@ export class SgStack extends cdk.Stack{
     }
     getWebServerSg() {
         return this.webServerSg;
+    }
+    getAutoScalingSg() {
+        return this.autoScalingSg;
     }
 }

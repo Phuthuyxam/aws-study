@@ -22,7 +22,7 @@
             "trace": [
               "new Vpc (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:758:21)",
               "new VpcStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/vpc-stack.ts:14:16)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:8:21)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:9:21)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -54,7 +54,7 @@
               "Vpc.createSubnets (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:906:12)",
               "new Vpc (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:792:10)",
               "new VpcStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/vpc-stack.ts:14:16)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:8:21)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:9:21)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -86,7 +86,7 @@
               "Vpc.createSubnets (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:906:12)",
               "new Vpc (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:792:10)",
               "new VpcStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/vpc-stack.ts:14:16)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:8:21)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:9:21)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -118,7 +118,7 @@
               "Vpc.createSubnets (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:906:12)",
               "new Vpc (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:792:10)",
               "new VpcStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/vpc-stack.ts:14:16)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:8:21)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:9:21)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -147,7 +147,7 @@
               "Array.forEach (<anonymous>)",
               "new Vpc (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:810:46)",
               "new VpcStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/vpc-stack.ts:14:16)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:8:21)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:9:21)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -176,7 +176,7 @@
               "Vpc.createNatGateways (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:887:14)",
               "new Vpc (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:817:14)",
               "new VpcStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/vpc-stack.ts:14:16)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:8:21)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:9:21)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -205,7 +205,7 @@
               "Vpc.createNatGateways (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:887:14)",
               "new Vpc (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:817:14)",
               "new VpcStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/vpc-stack.ts:14:16)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:8:21)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:9:21)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -237,7 +237,7 @@
               "Vpc.createSubnets (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:906:12)",
               "new Vpc (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:792:10)",
               "new VpcStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/vpc-stack.ts:14:16)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:8:21)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:9:21)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -269,7 +269,7 @@
               "Vpc.createSubnets (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:906:12)",
               "new Vpc (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:792:10)",
               "new VpcStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/vpc-stack.ts:14:16)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:8:21)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:9:21)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -301,7 +301,7 @@
               "Vpc.createSubnets (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:906:12)",
               "new Vpc (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:792:10)",
               "new VpcStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/vpc-stack.ts:14:16)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:8:21)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:9:21)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -330,7 +330,7 @@
               "Array.forEach (<anonymous>)",
               "new Vpc (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:810:46)",
               "new VpcStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/vpc-stack.ts:14:16)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:8:21)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:9:21)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -362,7 +362,7 @@
               "Vpc.createSubnets (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:906:12)",
               "new Vpc (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:792:10)",
               "new VpcStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/vpc-stack.ts:14:16)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:8:21)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:9:21)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -394,7 +394,7 @@
               "Vpc.createSubnets (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:906:12)",
               "new Vpc (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:792:10)",
               "new VpcStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/vpc-stack.ts:14:16)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:8:21)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:9:21)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -426,7 +426,7 @@
               "Vpc.createSubnets (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:906:12)",
               "new Vpc (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:792:10)",
               "new VpcStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/vpc-stack.ts:14:16)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:8:21)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:9:21)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -456,7 +456,7 @@
               "Vpc.createNatGateways (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:887:14)",
               "new Vpc (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:817:14)",
               "new VpcStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/vpc-stack.ts:14:16)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:8:21)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:9:21)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -488,7 +488,7 @@
               "Vpc.createSubnets (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:906:12)",
               "new Vpc (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:792:10)",
               "new VpcStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/vpc-stack.ts:14:16)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:8:21)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:9:21)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -520,7 +520,7 @@
               "Vpc.createSubnets (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:906:12)",
               "new Vpc (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:792:10)",
               "new VpcStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/vpc-stack.ts:14:16)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:8:21)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:9:21)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -552,7 +552,7 @@
               "Vpc.createSubnets (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:906:12)",
               "new Vpc (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:792:10)",
               "new VpcStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/vpc-stack.ts:14:16)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:8:21)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:9:21)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -582,7 +582,7 @@
               "Vpc.createNatGateways (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:887:14)",
               "new Vpc (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:817:14)",
               "new VpcStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/vpc-stack.ts:14:16)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:8:21)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:9:21)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -608,7 +608,7 @@
             "trace": [
               "new Vpc (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:799:19)",
               "new VpcStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/vpc-stack.ts:14:16)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:8:21)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:9:21)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -634,7 +634,7 @@
             "trace": [
               "new Vpc (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:805:19)",
               "new VpcStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/vpc-stack.ts:14:16)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:8:21)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:9:21)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -772,6 +772,26 @@
               "process.emit (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/source-map-support/source-map-support.js:516:21)"
             ]
           }
+        ],
+        "/VpcStack/Exports/Output{\"Ref\":\"VPCvpcdemoprivatesubnetSubnet2SubnetCBA2830A\"}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ExportsOutputRefVPCvpcdemoprivatesubnetSubnet2SubnetCBA2830A3CA9C076",
+            "trace": [
+              "VpcStack.exportValue (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/stack.ts:494:7)",
+              "createImportValue (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/private/refs.ts:167:37)",
+              "resolveValue (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/private/refs.ts:103:10)",
+              "Object.resolveReferences (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/private/refs.ts:30:24)",
+              "Object.prepareApp (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/private/prepare-app.ts:31:3)",
+              "Object.synthesize (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/private/synthesis.ts:24:3)",
+              "App.synth (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/stage.ts:94:23)",
+              "process.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/app.ts:64:45)",
+              "Object.onceWrapper (events.js:520:26)",
+              "process.emit (events.js:400:28)",
+              "process.emit (domain.js:475:12)",
+              "process.emit (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/source-map-support/source-map-support.js:516:21)"
+            ]
+          }
         ]
       },
       "displayName": "VpcStack"
@@ -793,8 +813,8 @@
             "data": "bastionsg9F6FB053",
             "trace": [
               "new SecurityGroup (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/security-group.ts:272:26)",
-              "new SgStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/security-group-stack.ts:16:25)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:9:20)",
+              "new SgStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/security-group-stack.ts:17:25)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:10:20)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -819,8 +839,8 @@
             "data": "albsg40B076C4",
             "trace": [
               "new SecurityGroup (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/security-group.ts:272:26)",
-              "new SgStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/security-group-stack.ts:25:21)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:9:20)",
+              "new SgStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/security-group-stack.ts:26:21)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:10:20)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -845,8 +865,8 @@
             "data": "webserversg676A088B",
             "trace": [
               "new SecurityGroup (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/security-group.ts:272:26)",
-              "new SgStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/security-group-stack.ts:33:27)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:9:20)",
+              "new SgStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/security-group-stack.ts:34:27)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:10:20)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -877,8 +897,8 @@
               "/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/connections.ts:106:45",
               "ReactiveList.forEachAndForever (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/connections.ts:200:7)",
               "Connections.allowFrom (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/connections.ts:105:26)",
-              "new SgStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/security-group-stack.ts:37:31)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:9:20)",
+              "new SgStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/security-group-stack.ts:38:31)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:10:20)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -909,8 +929,34 @@
               "/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/connections.ts:106:45",
               "ReactiveList.forEachAndForever (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/connections.ts:200:7)",
               "Connections.allowFrom (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/connections.ts:105:26)",
-              "new SgStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/security-group-stack.ts:38:31)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:9:20)",
+              "new SgStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/security-group-stack.ts:39:31)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:10:20)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/SgStack/autoScaling-sg/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "autoScalingsg1C1B7052",
+            "trace": [
+              "new SecurityGroup (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/security-group.ts:272:26)",
+              "new SgStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/security-group-stack.ts:42:30)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:10:20)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -1028,6 +1074,26 @@
               "process.emit (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/source-map-support/source-map-support.js:516:21)"
             ]
           }
+        ],
+        "/SgStack/Exports/Output{\"Fn::GetAtt\":[\"autoScalingsg1C1B7052\",\"GroupId\"]}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ExportsOutputFnGetAttautoScalingsg1C1B7052GroupId427C86D2",
+            "trace": [
+              "SgStack.exportValue (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/stack.ts:494:7)",
+              "createImportValue (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/private/refs.ts:167:37)",
+              "resolveValue (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/private/refs.ts:103:10)",
+              "Object.resolveReferences (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/private/refs.ts:30:24)",
+              "Object.prepareApp (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/private/prepare-app.ts:31:3)",
+              "Object.synthesize (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/private/synthesis.ts:24:3)",
+              "App.synth (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/stage.ts:94:23)",
+              "process.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/app.ts:64:45)",
+              "Object.onceWrapper (events.js:520:26)",
+              "process.emit (events.js:400:28)",
+              "process.emit (domain.js:475:12)",
+              "process.emit (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/source-map-support/source-map-support.js:516:21)"
+            ]
+          }
         ]
       },
       "displayName": "SgStack"
@@ -1052,7 +1118,7 @@
               "new Role (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/aws-iam/lib/role.ts:199:18)",
               "new Instance (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/instance.ts:159:31)",
               "new Ec2Stack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/ec2-stack.ts:17:23)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:10:13)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:11:13)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -1078,7 +1144,7 @@
             "trace": [
               "new Instance (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/instance.ts:164:24)",
               "new Ec2Stack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/ec2-stack.ts:17:23)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:10:13)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:11:13)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -1104,7 +1170,7 @@
             "trace": [
               "new Instance (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/instance.ts:199:21)",
               "new Ec2Stack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/ec2-stack.ts:17:23)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:10:13)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:11:13)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -1134,7 +1200,7 @@
               "AmazonLinuxImage.getImage (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/machine-image.ts:210:21)",
               "new Instance (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/instance.ts:169:44)",
               "new Ec2Stack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/ec2-stack.ts:17:23)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:10:13)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:11:13)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -1161,7 +1227,7 @@
               "new Role (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/node_modules/@aws-cdk/aws-iam/lib/role.ts:199:18)",
               "new Instance (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/instance.ts:159:31)",
               "new Ec2Stack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/ec2-stack.ts:38:23)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:10:13)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:11:13)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -1187,7 +1253,7 @@
             "trace": [
               "new Instance (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/instance.ts:164:24)",
               "new Ec2Stack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/ec2-stack.ts:38:23)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:10:13)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:11:13)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -1213,7 +1279,7 @@
             "trace": [
               "new Instance (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/instance.ts:199:21)",
               "new Ec2Stack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/ec2-stack.ts:38:23)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:10:13)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:11:13)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -1316,7 +1382,7 @@
               "new BaseLoadBalancer (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/shared/base-load-balancer.ts:138:22)",
               "new ApplicationLoadBalancer (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-load-balancer.ts:56:5)",
               "new AlbStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/alb-stack.ts:15:16)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:11:13)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:12:13)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -1344,7 +1410,7 @@
               "new ApplicationListener (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-listener.ts:111:5)",
               "ApplicationLoadBalancer.addListener (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-load-balancer.ts:77:22)",
               "new AlbStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/alb-stack.ts:24:31)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:11:13)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:12:13)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -1372,7 +1438,7 @@
               "new ApplicationTargetGroup (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-target-group.ts:67:5)",
               "ApplicationListener.addTargets (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-listener.ts:227:19)",
               "new AlbStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/alb-stack.ts:27:14)",
-              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:11:13)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:12:13)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
               "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
@@ -1433,6 +1499,308 @@
         ]
       },
       "displayName": "AlbStack"
+    },
+    "AutoScalingStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "AutoScalingStack.template.json",
+        "validateOnSynth": false
+      },
+      "dependencies": [
+        "SgStack",
+        "VpcStack"
+      ],
+      "metadata": {
+        "/AutoScalingStack/ASG/InstanceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ASGInstanceRoleE263A41B",
+            "trace": [
+              "new Role (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-autoscaling/node_modules/@aws-cdk/aws-iam/lib/role.ts:199:18)",
+              "new AutoScalingGroup (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-autoscaling/lib/auto-scaling-group.ts:529:31)",
+              "new autoScalingStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/autoscaling-stack.ts:14:34)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:13:21)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AutoScalingStack/ASG/InstanceProfile": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ASGInstanceProfile0A2834D7",
+            "trace": [
+              "new AutoScalingGroup (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-autoscaling/lib/auto-scaling-group.ts:540:24)",
+              "new autoScalingStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/autoscaling-stack.ts:14:34)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:13:21)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AutoScalingStack/ASG/LaunchConfig": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ASGLaunchConfigC00AF12B",
+            "trace": [
+              "new AutoScalingGroup (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-autoscaling/lib/auto-scaling-group.ts:550:26)",
+              "new autoScalingStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/autoscaling-stack.ts:14:34)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:13:21)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AutoScalingStack/ASG/ASG": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ASG46ED3070",
+            "trace": [
+              "new AutoScalingGroup (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-autoscaling/lib/auto-scaling-group.ts:639:29)",
+              "new autoScalingStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/autoscaling-stack.ts:14:34)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:13:21)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AutoScalingStack/ASG/ScaleToCPU/LowerPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ASGScaleToCPULowerPolicyBBDAAC66",
+            "trace": [
+              "new StepScalingAction (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-autoscaling/lib/step-scaling-action.ts:41:22)",
+              "new StepScalingPolicy (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-autoscaling/lib/step-scaling-policy.ts:66:26)",
+              "AutoScalingGroup.scaleOnMetric (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-autoscaling/lib/auto-scaling-group.ts:444:12)",
+              "new autoScalingStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/autoscaling-stack.ts:28:26)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:13:21)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AutoScalingStack/ASG/ScaleToCPU/LowerAlarm/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ASGScaleToCPULowerAlarm8EAE01E3",
+            "trace": [
+              "new Alarm (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-autoscaling/node_modules/@aws-cdk/aws-cloudwatch/lib/alarm.ts:114:19)",
+              "new StepScalingPolicy (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-autoscaling/lib/step-scaling-policy.ts:82:25)",
+              "AutoScalingGroup.scaleOnMetric (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-autoscaling/lib/auto-scaling-group.ts:444:12)",
+              "new autoScalingStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/autoscaling-stack.ts:28:26)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:13:21)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AutoScalingStack/ASG/ScaleToCPU/UpperPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ASGScaleToCPUUpperPolicy0C163F1E",
+            "trace": [
+              "new StepScalingAction (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-autoscaling/lib/step-scaling-action.ts:41:22)",
+              "new StepScalingPolicy (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-autoscaling/lib/step-scaling-policy.ts:96:26)",
+              "AutoScalingGroup.scaleOnMetric (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-autoscaling/lib/auto-scaling-group.ts:444:12)",
+              "new autoScalingStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/autoscaling-stack.ts:28:26)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:13:21)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AutoScalingStack/ASG/ScaleToCPU/UpperAlarm/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ASGScaleToCPUUpperAlarm5D95B2B0",
+            "trace": [
+              "new Alarm (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-autoscaling/node_modules/@aws-cdk/aws-cloudwatch/lib/alarm.ts:114:19)",
+              "new StepScalingPolicy (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-autoscaling/lib/step-scaling-policy.ts:112:25)",
+              "AutoScalingGroup.scaleOnMetric (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-autoscaling/lib/auto-scaling-group.ts:444:12)",
+              "new autoScalingStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/autoscaling-stack.ts:28:26)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:13:21)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AutoScalingStack/SsmParameterValue:--aws--service--ami-amazon-linux-latest--amzn-ami-hvm-x86_64-gp2:C96584B6-F00A-464E-AD19-53AFF4B05118.Parameter": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SsmParameterValueawsserviceamiamazonlinuxlatestamznamihvmx8664gp2C96584B6F00A464EAD1953AFF4B05118Parameter",
+            "trace": [
+              "Function.fromStringParameterAttributes (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ssm/lib/parameter.ts:194:9)",
+              "Function.valueForTypedStringParameter (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ssm/lib/parameter.ts:245:17)",
+              "lookupImage (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/machine-image.ts:407:27)",
+              "AmazonLinuxImage.getImage (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-ec2/lib/machine-image.ts:210:21)",
+              "new AutoScalingGroup (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-autoscaling/lib/auto-scaling-group.ts:545:44)",
+              "new autoScalingStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/autoscaling-stack.ts:14:34)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:13:21)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1085:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)",
+              "Module.load (internal/modules/cjs/loader.js:950:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:790:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/AutoScalingStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:22:24)",
+              "/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/private/synthesis.ts:166:5",
+              "visit (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/private/synthesis.ts:231:5)",
+              "visit (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/private/synthesis.ts:227:5)",
+              "injectMetadataResources (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/private/synthesis.ts:157:3)",
+              "Object.synthesize (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/stage.ts:94:23)",
+              "process.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/app.ts:64:45)",
+              "Object.onceWrapper (events.js:520:26)",
+              "process.emit (events.js:400:28)",
+              "process.emit (domain.js:475:12)",
+              "process.emit (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/source-map-support/source-map-support.js:516:21)"
+            ]
+          }
+        ],
+        "/AutoScalingStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:31:27)",
+              "/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/private/synthesis.ts:166:5",
+              "visit (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/private/synthesis.ts:231:5)",
+              "visit (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/private/synthesis.ts:227:5)",
+              "injectMetadataResources (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/private/synthesis.ts:157:3)",
+              "Object.synthesize (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/stage.ts:94:23)",
+              "process.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/core/lib/app.ts:64:45)",
+              "Object.onceWrapper (events.js:520:26)",
+              "process.emit (events.js:400:28)",
+              "process.emit (domain.js:475:12)",
+              "process.emit (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/source-map-support/source-map-support.js:516:21)"
+            ]
+          }
+        ]
+      },
+      "displayName": "AutoScalingStack"
     }
   }
 }

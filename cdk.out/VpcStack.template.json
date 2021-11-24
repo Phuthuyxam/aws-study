@@ -417,7 +417,7 @@
     "CDKMetadata": {
       "Type": "AWS::CDK::Metadata",
       "Properties": {
-        "Analytics": "v2:deflate64:H4sIAAAAAAAA/02PTQ+CMAyGf4v3OZx48KghxngxBA33UWqcH5vZOowh/Hc3UPHUp+3bj1fwVqRzPpus5NNNob4mYCzy9kASriwz2pH1QCw76QKd8RYwcmjUipTRHRNp+j/eRkCY87Z8QJSWecZyX90UHHylsV81UmE84VFWNxzrY23tnAEl46GfOMJml8ewl7SVhE/5YrlVTcBx8U4T2sBfwfDJJ1tTsHe+o6aO9X6/3rqOaVMjv7ikEQsullxMLk6pqfWa1D0Ih/gGLnpJhTcBAAA="
+        "Analytics": "v2:deflate64:H4sIAAAAAAAA/02PTQ+CMAyGf4v3OZx48KghxnAxRA33UWoc6ma2TmII/90NP/DUp+3bj1fwTqRzPpusZOumUF8SMBZ5dyAJF5YZ7ch6IJad9B6d8RYwcmjUipTRPRPp4n+8i4Aw5115hygti4wVvroqOPhK47BqpL3xhEdZXXGsj7W1cwaUjId+4gibvIhhJ2krCVv5ZIVVj4Dj4lwT2sBfwfuTT7amYO98Q009G/x+vfU906ZG3rjkIRZcLLmYNE6pqfWa1C0I3/EFupPC1jcBAAA="
       },
       "Metadata": {
         "aws:cdk:path": "VpcStack/CDKMetadata/Default"
@@ -650,6 +650,14 @@
       },
       "Export": {
         "Name": "VpcStack:ExportsOutputRefVPCvpcdemopublicsubnetSubnet2SubnetB4FAC5544163A768"
+      }
+    },
+    "ExportsOutputRefVPCvpcdemoprivatesubnetSubnet2SubnetCBA2830A3CA9C076": {
+      "Value": {
+        "Ref": "VPCvpcdemoprivatesubnetSubnet2SubnetCBA2830A"
+      },
+      "Export": {
+        "Name": "VpcStack:ExportsOutputRefVPCvpcdemoprivatesubnetSubnet2SubnetCBA2830A3CA9C076"
       }
     }
   }
