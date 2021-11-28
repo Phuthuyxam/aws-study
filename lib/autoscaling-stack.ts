@@ -5,6 +5,32 @@ import { aslStackProps } from './interfaces/aslStackInterface';
 import * as cloudwatch from '@aws-cdk/aws-cloudwatch';
 
 export class autoScalingStack extends cdk.Stack {
+
+    /* 
+        build a image -> code build
+        => viết script ( chọn repo, commit id)
+
+        new cdk => vpc , subnet, alb .., codebuild
+        repo sửa code => commit id => codebuild =. chọn commit id => start build =>
+
+        + khởi tạo 1 ec2 lên
+        + cài source code
+        + tạo image => my app
+        + check image cũ => myapp:2 (nếu cần backup)
+        + delete ec2
+
+        code pipeline => tracking branch => codebuild
+
+        => aws cli
+
+        rds: mysql, pgsql, 
+            aurora-mysql, aurora-pgsql ( sugget use )
+
+        cluster db: support cân bằng tải.
+    
+    */
+
+
   
   constructor(scope: cdk.Construct,
               id: string,
