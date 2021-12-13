@@ -48,6 +48,13 @@ export class Ec2Stack extends cdk.Stack {
         keyName: "ec2-key-pair",
         userData,
     });
+
+    // Create an Output
+    new cdk.CfnOutput(this, "web-instance-id", {
+      value: this.ec2Private.instanceId,
+      exportName: "webInstanceId",
+    });
+
   }
 
   getEc2Bastion() {

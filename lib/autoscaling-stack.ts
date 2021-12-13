@@ -27,7 +27,33 @@ export class autoScalingStack extends cdk.Stack {
             aurora-mysql, aurora-pgsql ( sugget use )
 
         cluster db: support cân bằng tải.
-    
+
+
+        tạo code commit
+
+        phần 1: tạo infra
+        + vpc, subnet, security-group
+        phần 2: build web
+        + alb, autoscaling, image
+
+
+        // console -> tạo ec2 -> cài cắm => buildimage
+
+        code build -> tạo image 
+
+        tạo codecommit => source cdk
+                       => source web
+
+        tạo codebuild: 
+                + repo: source cdk
+                + commands:
+                    - tạo image: build infa + dựng ec2 + lưu biến môi trường cho tên image
+                    - tạo alb:
+                    - tạo autoscaling
+
+
+
+        domain: hostedzone, certificate
     */
 
 
@@ -40,7 +66,9 @@ export class autoScalingStack extends cdk.Stack {
         const autoScalingGroup = new autoscaling.AutoScalingGroup(this, 'ASG', {
             vpc : props.vpc,
             instanceType: ec2.InstanceType.of(ec2.InstanceClass.T3A, ec2.InstanceSize.MICRO),
-            machineImage: new ec2.AmazonLinuxImage(),
+            machineImage: ec2.MachineImage.lookup({
+                name: <string>process.env.INSTANCE_ID,
+            }),
             securityGroup: props.sg.getAutoScalingSg(),
             minCapacity: 1,
             maxCapacity: 4,
