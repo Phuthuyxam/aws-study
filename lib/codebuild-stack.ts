@@ -84,6 +84,9 @@ export class CodeBuildStack extends cdk.Stack {
             environment: {
                 'computeType' : ComputeType.SMALL,
             },
+            // environmentVariables: {         
+            //     //INSTANCE_ID: { value: process.env.INSTANCE_ID },
+            // },
             role: codeBuildRole,
             buildSpec: codebuild.BuildSpec.fromObject({
               version: '0.2',
@@ -111,20 +114,26 @@ export class CodeBuildStack extends cdk.Stack {
                     "aws --version",
 
                     "npm install",
-                    "cdk deploy VpcStack --require-approval never",
-                    "cdk deploy SgStack --require-approval never",
                     "cdk deploy Ec2Stack --require-approval never",
+                    "export VERSION=$(date +\\%Y\\%m\\%d\\%H\\%M\\%S)",
                     
+                    `export INSTANCE_ID=$(aws cloudformation describe-stacks --stack-name Ec2Stack --output text --query="Stacks[0].Outputs[0].OutputValue")`,
+                    "export AMI_NAME=web-ami-$VERSION",
+                    // create image
+                    `export AMI_ID=$(aws ec2 create-image --instance-id $INSTANCE_ID --name $AMI_NAME --output text)`,
+
+                    // wait....
+                    "aws ec2 wait image-available --image-ids $AMI_ID",
+
+                    // destroy ec2 stack
+
+                    // run - cdk - autoscaling + alb
+
                   ],
                 },
               },
               
             }),
-
-            environmentVariables: {                
-                INSTANCE_ID: { value: process.env.AWS_DEFAULT_REGION },
-
-            },
 
         });
 

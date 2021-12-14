@@ -25,14 +25,7 @@
         "VpcId": {
           "Ref": "VPCB9E5F0B4"
         },
-        "AvailabilityZone": {
-          "Fn::Select": [
-            0,
-            {
-              "Fn::GetAZs": ""
-            }
-          ]
-        },
+        "AvailabilityZone": "ap-southeast-1a",
         "MapPublicIpOnLaunch": true,
         "Tags": [
           {
@@ -147,14 +140,7 @@
         "VpcId": {
           "Ref": "VPCB9E5F0B4"
         },
-        "AvailabilityZone": {
-          "Fn::Select": [
-            1,
-            {
-              "Fn::GetAZs": ""
-            }
-          ]
-        },
+        "AvailabilityZone": "ap-southeast-1b",
         "MapPublicIpOnLaunch": true,
         "Tags": [
           {
@@ -231,14 +217,7 @@
         "VpcId": {
           "Ref": "VPCB9E5F0B4"
         },
-        "AvailabilityZone": {
-          "Fn::Select": [
-            0,
-            {
-              "Fn::GetAZs": ""
-            }
-          ]
-        },
+        "AvailabilityZone": "ap-southeast-1a",
         "MapPublicIpOnLaunch": false,
         "Tags": [
           {
@@ -312,14 +291,7 @@
         "VpcId": {
           "Ref": "VPCB9E5F0B4"
         },
-        "AvailabilityZone": {
-          "Fn::Select": [
-            1,
-            {
-              "Fn::GetAZs": ""
-            }
-          ]
-        },
+        "AvailabilityZone": "ap-southeast-1b",
         "MapPublicIpOnLaunch": false,
         "Tags": [
           {
@@ -417,206 +389,11 @@
     "CDKMetadata": {
       "Type": "AWS::CDK::Metadata",
       "Properties": {
-        "Analytics": "v2:deflate64:H4sIAAAAAAAA/02PTQ+CMAyGf4v3OZx48KghxnAxRA33UWoc6ma2TmII/90NP/DUp+3bj1fwTqRzPpusZOumUF8SMBZ5dyAJF5YZ7ch6IJad9B6d8RYwcmjUipTRPRPp4n+8i4Aw5115hygti4wVvroqOPhK47BqpL3xhEdZXXGsj7W1cwaUjId+4gibvIhhJ2krCVv5ZIVVj4Dj4lwT2sBfwfuTT7amYO98Q009G/x+vfU906ZG3rjkIRZcLLmYNE6pqfWa1C0I3/EFupPC1jcBAAA="
+        "Analytics": "v2:deflate64:H4sIAAAAAAAA/02PzQ6CMBCEn4V7rRY5eJQQY7wYosZ7WdZYwNa0W4khvLv8KHjabyczmx3BG7EO+SrYytotIC+XYCzy5kwSSpYY7ch6IJbc9Amd8RawZWId/SeaHhBC3lyf0DuvacJSn1UKzj7TOKRnOhlPeJFZhbM+a7FzBpQkZfRk7mF3SPtxlLSXhLV8s9SqV4fz4YMmtB3/DOMn3y2mrtH9gZpaNlSc6rRMmxx54ZYvEXGx4SIonFIL6zWpR2cc5wfW640QKgEAAA=="
       },
       "Metadata": {
         "aws:cdk:path": "VpcStack/CDKMetadata/Default"
-      },
-      "Condition": "CDKMetadataAvailable"
-    }
-  },
-  "Conditions": {
-    "CDKMetadataAvailable": {
-      "Fn::Or": [
-        {
-          "Fn::Or": [
-            {
-              "Fn::Equals": [
-                {
-                  "Ref": "AWS::Region"
-                },
-                "af-south-1"
-              ]
-            },
-            {
-              "Fn::Equals": [
-                {
-                  "Ref": "AWS::Region"
-                },
-                "ap-east-1"
-              ]
-            },
-            {
-              "Fn::Equals": [
-                {
-                  "Ref": "AWS::Region"
-                },
-                "ap-northeast-1"
-              ]
-            },
-            {
-              "Fn::Equals": [
-                {
-                  "Ref": "AWS::Region"
-                },
-                "ap-northeast-2"
-              ]
-            },
-            {
-              "Fn::Equals": [
-                {
-                  "Ref": "AWS::Region"
-                },
-                "ap-south-1"
-              ]
-            },
-            {
-              "Fn::Equals": [
-                {
-                  "Ref": "AWS::Region"
-                },
-                "ap-southeast-1"
-              ]
-            },
-            {
-              "Fn::Equals": [
-                {
-                  "Ref": "AWS::Region"
-                },
-                "ap-southeast-2"
-              ]
-            },
-            {
-              "Fn::Equals": [
-                {
-                  "Ref": "AWS::Region"
-                },
-                "ca-central-1"
-              ]
-            },
-            {
-              "Fn::Equals": [
-                {
-                  "Ref": "AWS::Region"
-                },
-                "cn-north-1"
-              ]
-            },
-            {
-              "Fn::Equals": [
-                {
-                  "Ref": "AWS::Region"
-                },
-                "cn-northwest-1"
-              ]
-            }
-          ]
-        },
-        {
-          "Fn::Or": [
-            {
-              "Fn::Equals": [
-                {
-                  "Ref": "AWS::Region"
-                },
-                "eu-central-1"
-              ]
-            },
-            {
-              "Fn::Equals": [
-                {
-                  "Ref": "AWS::Region"
-                },
-                "eu-north-1"
-              ]
-            },
-            {
-              "Fn::Equals": [
-                {
-                  "Ref": "AWS::Region"
-                },
-                "eu-south-1"
-              ]
-            },
-            {
-              "Fn::Equals": [
-                {
-                  "Ref": "AWS::Region"
-                },
-                "eu-west-1"
-              ]
-            },
-            {
-              "Fn::Equals": [
-                {
-                  "Ref": "AWS::Region"
-                },
-                "eu-west-2"
-              ]
-            },
-            {
-              "Fn::Equals": [
-                {
-                  "Ref": "AWS::Region"
-                },
-                "eu-west-3"
-              ]
-            },
-            {
-              "Fn::Equals": [
-                {
-                  "Ref": "AWS::Region"
-                },
-                "me-south-1"
-              ]
-            },
-            {
-              "Fn::Equals": [
-                {
-                  "Ref": "AWS::Region"
-                },
-                "sa-east-1"
-              ]
-            },
-            {
-              "Fn::Equals": [
-                {
-                  "Ref": "AWS::Region"
-                },
-                "us-east-1"
-              ]
-            },
-            {
-              "Fn::Equals": [
-                {
-                  "Ref": "AWS::Region"
-                },
-                "us-east-2"
-              ]
-            }
-          ]
-        },
-        {
-          "Fn::Or": [
-            {
-              "Fn::Equals": [
-                {
-                  "Ref": "AWS::Region"
-                },
-                "us-west-1"
-              ]
-            },
-            {
-              "Fn::Equals": [
-                {
-                  "Ref": "AWS::Region"
-                },
-                "us-west-2"
-              ]
-            }
-          ]
-        }
-      ]
+      }
     }
   },
   "Outputs": {
@@ -644,20 +421,20 @@
         "Name": "VpcStack:ExportsOutputRefVPCvpcdemoprivatesubnetSubnet1Subnet952DF872CB0D3B3C"
       }
     },
-    "ExportsOutputRefVPCvpcdemopublicsubnetSubnet2SubnetB4FAC5544163A768": {
-      "Value": {
-        "Ref": "VPCvpcdemopublicsubnetSubnet2SubnetB4FAC554"
-      },
-      "Export": {
-        "Name": "VpcStack:ExportsOutputRefVPCvpcdemopublicsubnetSubnet2SubnetB4FAC5544163A768"
-      }
-    },
     "ExportsOutputRefVPCvpcdemoprivatesubnetSubnet2SubnetCBA2830A3CA9C076": {
       "Value": {
         "Ref": "VPCvpcdemoprivatesubnetSubnet2SubnetCBA2830A"
       },
       "Export": {
         "Name": "VpcStack:ExportsOutputRefVPCvpcdemoprivatesubnetSubnet2SubnetCBA2830A3CA9C076"
+      }
+    },
+    "ExportsOutputRefVPCvpcdemopublicsubnetSubnet2SubnetB4FAC5544163A768": {
+      "Value": {
+        "Ref": "VPCvpcdemopublicsubnetSubnet2SubnetB4FAC554"
+      },
+      "Export": {
+        "Name": "VpcStack:ExportsOutputRefVPCvpcdemopublicsubnetSubnet2SubnetB4FAC5544163A768"
       }
     }
   }

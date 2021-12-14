@@ -26,7 +26,7 @@ export class AlbStack extends cdk.Stack {
     });
     listener.addTargets("alb-listener-target", {
         port: 80,
-        targets: [new InstanceIdTarget(props.ec2.getEc2Private().instanceId)],
+        targets: [props.autoscaling],
         healthCheck: {
             healthyHttpCodes: "200",
             path: "/",

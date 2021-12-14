@@ -57,14 +57,7 @@
                         "vpcId": {
                           "Ref": "VPCB9E5F0B4"
                         },
-                        "availabilityZone": {
-                          "Fn::Select": [
-                            0,
-                            {
-                              "Fn::GetAZs": ""
-                            }
-                          ]
-                        },
+                        "availabilityZone": "ap-southeast-1a",
                         "mapPublicIpOnLaunch": true,
                         "tags": [
                           {
@@ -224,14 +217,7 @@
                         "vpcId": {
                           "Ref": "VPCB9E5F0B4"
                         },
-                        "availabilityZone": {
-                          "Fn::Select": [
-                            1,
-                            {
-                              "Fn::GetAZs": ""
-                            }
-                          ]
-                        },
+                        "availabilityZone": "ap-southeast-1b",
                         "mapPublicIpOnLaunch": true,
                         "tags": [
                           {
@@ -343,14 +329,7 @@
                         "vpcId": {
                           "Ref": "VPCB9E5F0B4"
                         },
-                        "availabilityZone": {
-                          "Fn::Select": [
-                            0,
-                            {
-                              "Fn::GetAZs": ""
-                            }
-                          ]
-                        },
+                        "availabilityZone": "ap-southeast-1a",
                         "mapPublicIpOnLaunch": false,
                         "tags": [
                           {
@@ -462,14 +441,7 @@
                         "vpcId": {
                           "Ref": "VPCB9E5F0B4"
                         },
-                        "availabilityZone": {
-                          "Fn::Select": [
-                            1,
-                            {
-                              "Fn::GetAZs": ""
-                            }
-                          ]
-                        },
+                        "availabilityZone": "ap-southeast-1b",
                         "mapPublicIpOnLaunch": false,
                         "tags": [
                           {
@@ -622,14 +594,6 @@
                   "fqn": "@aws-cdk/core.CfnResource",
                   "version": "1.132.0"
                 }
-              },
-              "Condition": {
-                "id": "Condition",
-                "path": "VpcStack/CDKMetadata/Condition",
-                "constructInfo": {
-                  "fqn": "@aws-cdk/core.CfnCondition",
-                  "version": "1.132.0"
-                }
               }
             },
             "constructInfo": {
@@ -665,17 +629,17 @@
                   "version": "1.132.0"
                 }
               },
-              "Output{\"Ref\":\"VPCvpcdemopublicsubnetSubnet2SubnetB4FAC554\"}": {
-                "id": "Output{\"Ref\":\"VPCvpcdemopublicsubnetSubnet2SubnetB4FAC554\"}",
-                "path": "VpcStack/Exports/Output{\"Ref\":\"VPCvpcdemopublicsubnetSubnet2SubnetB4FAC554\"}",
+              "Output{\"Ref\":\"VPCvpcdemoprivatesubnetSubnet2SubnetCBA2830A\"}": {
+                "id": "Output{\"Ref\":\"VPCvpcdemoprivatesubnetSubnet2SubnetCBA2830A\"}",
+                "path": "VpcStack/Exports/Output{\"Ref\":\"VPCvpcdemoprivatesubnetSubnet2SubnetCBA2830A\"}",
                 "constructInfo": {
                   "fqn": "@aws-cdk/core.CfnOutput",
                   "version": "1.132.0"
                 }
               },
-              "Output{\"Ref\":\"VPCvpcdemoprivatesubnetSubnet2SubnetCBA2830A\"}": {
-                "id": "Output{\"Ref\":\"VPCvpcdemoprivatesubnetSubnet2SubnetCBA2830A\"}",
-                "path": "VpcStack/Exports/Output{\"Ref\":\"VPCvpcdemoprivatesubnetSubnet2SubnetCBA2830A\"}",
+              "Output{\"Ref\":\"VPCvpcdemopublicsubnetSubnet2SubnetB4FAC554\"}": {
+                "id": "Output{\"Ref\":\"VPCvpcdemopublicsubnetSubnet2SubnetB4FAC554\"}",
+                "path": "VpcStack/Exports/Output{\"Ref\":\"VPCvpcdemopublicsubnetSubnet2SubnetB4FAC554\"}",
                 "constructInfo": {
                   "fqn": "@aws-cdk/core.CfnOutput",
                   "version": "1.132.0"
@@ -902,6 +866,35 @@
                   "fqn": "@aws-cdk/aws-ec2.CfnSecurityGroup",
                   "version": "1.134.0"
                 }
+              },
+              "from SgStackalbsg0F9DC4C2:80": {
+                "id": "from SgStackalbsg0F9DC4C2:80",
+                "path": "SgStack/autoScaling-sg/from SgStackalbsg0F9DC4C2:80",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::EC2::SecurityGroupIngress",
+                  "aws:cdk:cloudformation:props": {
+                    "ipProtocol": "tcp",
+                    "description": "Load balancer to target",
+                    "fromPort": 80,
+                    "groupId": {
+                      "Fn::GetAtt": [
+                        "autoScalingsg1C1B7052",
+                        "GroupId"
+                      ]
+                    },
+                    "sourceSecurityGroupId": {
+                      "Fn::GetAtt": [
+                        "albsg40B076C4",
+                        "GroupId"
+                      ]
+                    },
+                    "toPort": 80
+                  }
+                },
+                "constructInfo": {
+                  "fqn": "@aws-cdk/aws-ec2.CfnSecurityGroupIngress",
+                  "version": "1.134.0"
+                }
               }
             },
             "constructInfo": {
@@ -918,14 +911,6 @@
                 "path": "SgStack/CDKMetadata/Default",
                 "constructInfo": {
                   "fqn": "@aws-cdk/core.CfnResource",
-                  "version": "1.132.0"
-                }
-              },
-              "Condition": {
-                "id": "Condition",
-                "path": "SgStack/CDKMetadata/Condition",
-                "constructInfo": {
-                  "fqn": "@aws-cdk/core.CfnCondition",
                   "version": "1.132.0"
                 }
               }
@@ -955,17 +940,17 @@
                   "version": "1.132.0"
                 }
               },
-              "Output{\"Fn::GetAtt\":[\"albsg40B076C4\",\"GroupId\"]}": {
-                "id": "Output{\"Fn::GetAtt\":[\"albsg40B076C4\",\"GroupId\"]}",
-                "path": "SgStack/Exports/Output{\"Fn::GetAtt\":[\"albsg40B076C4\",\"GroupId\"]}",
+              "Output{\"Fn::GetAtt\":[\"autoScalingsg1C1B7052\",\"GroupId\"]}": {
+                "id": "Output{\"Fn::GetAtt\":[\"autoScalingsg1C1B7052\",\"GroupId\"]}",
+                "path": "SgStack/Exports/Output{\"Fn::GetAtt\":[\"autoScalingsg1C1B7052\",\"GroupId\"]}",
                 "constructInfo": {
                   "fqn": "@aws-cdk/core.CfnOutput",
                   "version": "1.132.0"
                 }
               },
-              "Output{\"Fn::GetAtt\":[\"autoScalingsg1C1B7052\",\"GroupId\"]}": {
-                "id": "Output{\"Fn::GetAtt\":[\"autoScalingsg1C1B7052\",\"GroupId\"]}",
-                "path": "SgStack/Exports/Output{\"Fn::GetAtt\":[\"autoScalingsg1C1B7052\",\"GroupId\"]}",
+              "Output{\"Fn::GetAtt\":[\"albsg40B076C4\",\"GroupId\"]}": {
+                "id": "Output{\"Fn::GetAtt\":[\"albsg40B076C4\",\"GroupId\"]}",
+                "path": "SgStack/Exports/Output{\"Fn::GetAtt\":[\"albsg40B076C4\",\"GroupId\"]}",
                 "constructInfo": {
                   "fqn": "@aws-cdk/core.CfnOutput",
                   "version": "1.132.0"
@@ -1007,17 +992,7 @@
                               "Action": "sts:AssumeRole",
                               "Effect": "Allow",
                               "Principal": {
-                                "Service": {
-                                  "Fn::Join": [
-                                    "",
-                                    [
-                                      "ec2.",
-                                      {
-                                        "Ref": "AWS::URLSuffix"
-                                      }
-                                    ]
-                                  ]
-                                }
+                                "Service": "ec2.amazonaws.com"
                               }
                             }
                           ],
@@ -1066,14 +1041,7 @@
                 "attributes": {
                   "aws:cdk:cloudformation:type": "AWS::EC2::Instance",
                   "aws:cdk:cloudformation:props": {
-                    "availabilityZone": {
-                      "Fn::Select": [
-                        0,
-                        {
-                          "Fn::GetAZs": ""
-                        }
-                      ]
-                    },
+                    "availabilityZone": "ap-southeast-1a",
                     "iamInstanceProfile": {
                       "Ref": "Bastionec2InstanceProfile49550AAD"
                     },
@@ -1148,17 +1116,7 @@
                               "Action": "sts:AssumeRole",
                               "Effect": "Allow",
                               "Principal": {
-                                "Service": {
-                                  "Fn::Join": [
-                                    "",
-                                    [
-                                      "ec2.",
-                                      {
-                                        "Ref": "AWS::URLSuffix"
-                                      }
-                                    ]
-                                  ]
-                                }
+                                "Service": "ec2.amazonaws.com"
                               }
                             }
                           ],
@@ -1207,14 +1165,7 @@
                 "attributes": {
                   "aws:cdk:cloudformation:type": "AWS::EC2::Instance",
                   "aws:cdk:cloudformation:props": {
-                    "availabilityZone": {
-                      "Fn::Select": [
-                        0,
-                        {
-                          "Fn::GetAZs": ""
-                        }
-                      ]
-                    },
+                    "availabilityZone": "ap-southeast-1a",
                     "iamInstanceProfile": {
                       "Ref": "Privateec2InstanceProfile494C19F0"
                     },
@@ -1272,194 +1223,6 @@
                   "fqn": "@aws-cdk/core.CfnResource",
                   "version": "1.132.0"
                 }
-              },
-              "Condition": {
-                "id": "Condition",
-                "path": "Ec2Stack/CDKMetadata/Condition",
-                "constructInfo": {
-                  "fqn": "@aws-cdk/core.CfnCondition",
-                  "version": "1.132.0"
-                }
-              }
-            },
-            "constructInfo": {
-              "fqn": "@aws-cdk/core.Construct",
-              "version": "1.132.0"
-            }
-          },
-          "Exports": {
-            "id": "Exports",
-            "path": "Ec2Stack/Exports",
-            "children": {
-              "Output{\"Ref\":\"Privateec230CBF5D3\"}": {
-                "id": "Output{\"Ref\":\"Privateec230CBF5D3\"}",
-                "path": "Ec2Stack/Exports/Output{\"Ref\":\"Privateec230CBF5D3\"}",
-                "constructInfo": {
-                  "fqn": "@aws-cdk/core.CfnOutput",
-                  "version": "1.132.0"
-                }
-              }
-            },
-            "constructInfo": {
-              "fqn": "@aws-cdk/core.Construct",
-              "version": "1.132.0"
-            }
-          }
-        },
-        "constructInfo": {
-          "fqn": "@aws-cdk/core.Stack",
-          "version": "1.132.0"
-        }
-      },
-      "AlbStack": {
-        "id": "AlbStack",
-        "path": "AlbStack",
-        "children": {
-          "alb": {
-            "id": "alb",
-            "path": "AlbStack/alb",
-            "children": {
-              "Resource": {
-                "id": "Resource",
-                "path": "AlbStack/alb/Resource",
-                "attributes": {
-                  "aws:cdk:cloudformation:type": "AWS::ElasticLoadBalancingV2::LoadBalancer",
-                  "aws:cdk:cloudformation:props": {
-                    "loadBalancerAttributes": [
-                      {
-                        "key": "deletion_protection.enabled",
-                        "value": "false"
-                      }
-                    ],
-                    "scheme": "internet-facing",
-                    "securityGroups": [
-                      {
-                        "Fn::ImportValue": "SgStack:ExportsOutputFnGetAttalbsg40B076C4GroupId00309A0E"
-                      }
-                    ],
-                    "subnets": [
-                      {
-                        "Fn::ImportValue": "VpcStack:ExportsOutputRefVPCvpcdemopublicsubnetSubnet1SubnetDC51A0426DA90CE9"
-                      },
-                      {
-                        "Fn::ImportValue": "VpcStack:ExportsOutputRefVPCvpcdemopublicsubnetSubnet2SubnetB4FAC5544163A768"
-                      }
-                    ],
-                    "type": "application"
-                  }
-                },
-                "constructInfo": {
-                  "fqn": "@aws-cdk/aws-elasticloadbalancingv2.CfnLoadBalancer",
-                  "version": "1.134.0"
-                }
-              },
-              "alb-listener": {
-                "id": "alb-listener",
-                "path": "AlbStack/alb/alb-listener",
-                "children": {
-                  "Resource": {
-                    "id": "Resource",
-                    "path": "AlbStack/alb/alb-listener/Resource",
-                    "attributes": {
-                      "aws:cdk:cloudformation:type": "AWS::ElasticLoadBalancingV2::Listener",
-                      "aws:cdk:cloudformation:props": {
-                        "defaultActions": [
-                          {
-                            "type": "forward",
-                            "targetGroupArn": {
-                              "Ref": "albalblisteneralblistenertargetGroup7B3DFF2E"
-                            }
-                          }
-                        ],
-                        "loadBalancerArn": {
-                          "Ref": "alb8A8B13C2"
-                        },
-                        "port": 80,
-                        "protocol": "HTTP"
-                      }
-                    },
-                    "constructInfo": {
-                      "fqn": "@aws-cdk/aws-elasticloadbalancingv2.CfnListener",
-                      "version": "1.134.0"
-                    }
-                  },
-                  "alb-listener-targetGroup": {
-                    "id": "alb-listener-targetGroup",
-                    "path": "AlbStack/alb/alb-listener/alb-listener-targetGroup",
-                    "children": {
-                      "Resource": {
-                        "id": "Resource",
-                        "path": "AlbStack/alb/alb-listener/alb-listener-targetGroup/Resource",
-                        "attributes": {
-                          "aws:cdk:cloudformation:type": "AWS::ElasticLoadBalancingV2::TargetGroup",
-                          "aws:cdk:cloudformation:props": {
-                            "healthCheckPath": "/",
-                            "matcher": {
-                              "httpCode": "200"
-                            },
-                            "port": 80,
-                            "protocol": "HTTP",
-                            "targetGroupAttributes": [
-                              {
-                                "key": "stickiness.enabled",
-                                "value": "false"
-                              }
-                            ],
-                            "targets": [
-                              {
-                                "id": {
-                                  "Fn::ImportValue": "Ec2Stack:ExportsOutputRefPrivateec230CBF5D345995FDF"
-                                }
-                              }
-                            ],
-                            "targetType": "instance",
-                            "vpcId": {
-                              "Fn::ImportValue": "VpcStack:ExportsOutputRefVPCB9E5F0B4BD23A326"
-                            }
-                          }
-                        },
-                        "constructInfo": {
-                          "fqn": "@aws-cdk/aws-elasticloadbalancingv2.CfnTargetGroup",
-                          "version": "1.134.0"
-                        }
-                      }
-                    },
-                    "constructInfo": {
-                      "fqn": "@aws-cdk/aws-elasticloadbalancingv2.ApplicationTargetGroup",
-                      "version": "1.134.0"
-                    }
-                  }
-                },
-                "constructInfo": {
-                  "fqn": "@aws-cdk/aws-elasticloadbalancingv2.ApplicationListener",
-                  "version": "1.134.0"
-                }
-              }
-            },
-            "constructInfo": {
-              "fqn": "@aws-cdk/aws-elasticloadbalancingv2.ApplicationLoadBalancer",
-              "version": "1.134.0"
-            }
-          },
-          "CDKMetadata": {
-            "id": "CDKMetadata",
-            "path": "AlbStack/CDKMetadata",
-            "children": {
-              "Default": {
-                "id": "Default",
-                "path": "AlbStack/CDKMetadata/Default",
-                "constructInfo": {
-                  "fqn": "@aws-cdk/core.CfnResource",
-                  "version": "1.132.0"
-                }
-              },
-              "Condition": {
-                "id": "Condition",
-                "path": "AlbStack/CDKMetadata/Condition",
-                "constructInfo": {
-                  "fqn": "@aws-cdk/core.CfnCondition",
-                  "version": "1.132.0"
-                }
               }
             },
             "constructInfo": {
@@ -1497,17 +1260,7 @@
                               "Action": "sts:AssumeRole",
                               "Effect": "Allow",
                               "Principal": {
-                                "Service": {
-                                  "Fn::Join": [
-                                    "",
-                                    [
-                                      "ec2.",
-                                      {
-                                        "Ref": "AWS::URLSuffix"
-                                      }
-                                    ]
-                                  ]
-                                }
+                                "Service": "ec2.amazonaws.com"
                               }
                             }
                           ],
@@ -1556,9 +1309,7 @@
                 "attributes": {
                   "aws:cdk:cloudformation:type": "AWS::AutoScaling::LaunchConfiguration",
                   "aws:cdk:cloudformation:props": {
-                    "imageId": {
-                      "Ref": "SsmParameterValueawsserviceamiamazonlinuxlatestamznamihvmx8664gp2C96584B6F00A464EAD1953AFF4B05118Parameter"
-                    },
+                    "imageId": "ami-1234",
                     "instanceType": "t3a.micro",
                     "iamInstanceProfile": {
                       "Ref": "ASGInstanceProfile0A2834D7"
@@ -1594,6 +1345,11 @@
                         "key": "Name",
                         "value": "AutoScalingStack/ASG",
                         "propagateAtLaunch": true
+                      }
+                    ],
+                    "targetGroupArns": [
+                      {
+                        "Fn::ImportValue": "AlbStack:ExportsOutputRefalbalblisteneralblistenertargetGroup7B3DFF2E973CF7B5"
                       }
                     ],
                     "vpcZoneIdentifier": [
@@ -1774,22 +1530,6 @@
               "version": "1.134.0"
             }
           },
-          "SsmParameterValue:--aws--service--ami-amazon-linux-latest--amzn-ami-hvm-x86_64-gp2:C96584B6-F00A-464E-AD19-53AFF4B05118.Parameter": {
-            "id": "SsmParameterValue:--aws--service--ami-amazon-linux-latest--amzn-ami-hvm-x86_64-gp2:C96584B6-F00A-464E-AD19-53AFF4B05118.Parameter",
-            "path": "AutoScalingStack/SsmParameterValue:--aws--service--ami-amazon-linux-latest--amzn-ami-hvm-x86_64-gp2:C96584B6-F00A-464E-AD19-53AFF4B05118.Parameter",
-            "constructInfo": {
-              "fqn": "@aws-cdk/core.CfnParameter",
-              "version": "1.134.0"
-            }
-          },
-          "SsmParameterValue:--aws--service--ami-amazon-linux-latest--amzn-ami-hvm-x86_64-gp2:C96584B6-F00A-464E-AD19-53AFF4B05118": {
-            "id": "SsmParameterValue:--aws--service--ami-amazon-linux-latest--amzn-ami-hvm-x86_64-gp2:C96584B6-F00A-464E-AD19-53AFF4B05118",
-            "path": "AutoScalingStack/SsmParameterValue:--aws--service--ami-amazon-linux-latest--amzn-ami-hvm-x86_64-gp2:C96584B6-F00A-464E-AD19-53AFF4B05118",
-            "constructInfo": {
-              "fqn": "@aws-cdk/core.Resource",
-              "version": "1.134.0"
-            }
-          },
           "CDKMetadata": {
             "id": "CDKMetadata",
             "path": "AutoScalingStack/CDKMetadata",
@@ -1801,12 +1541,169 @@
                   "fqn": "@aws-cdk/core.CfnResource",
                   "version": "1.132.0"
                 }
-              },
-              "Condition": {
-                "id": "Condition",
-                "path": "AutoScalingStack/CDKMetadata/Condition",
+              }
+            },
+            "constructInfo": {
+              "fqn": "@aws-cdk/core.Construct",
+              "version": "1.132.0"
+            }
+          }
+        },
+        "constructInfo": {
+          "fqn": "@aws-cdk/core.Stack",
+          "version": "1.132.0"
+        }
+      },
+      "AlbStack": {
+        "id": "AlbStack",
+        "path": "AlbStack",
+        "children": {
+          "alb": {
+            "id": "alb",
+            "path": "AlbStack/alb",
+            "children": {
+              "Resource": {
+                "id": "Resource",
+                "path": "AlbStack/alb/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::ElasticLoadBalancingV2::LoadBalancer",
+                  "aws:cdk:cloudformation:props": {
+                    "loadBalancerAttributes": [
+                      {
+                        "key": "deletion_protection.enabled",
+                        "value": "false"
+                      }
+                    ],
+                    "scheme": "internet-facing",
+                    "securityGroups": [
+                      {
+                        "Fn::ImportValue": "SgStack:ExportsOutputFnGetAttalbsg40B076C4GroupId00309A0E"
+                      }
+                    ],
+                    "subnets": [
+                      {
+                        "Fn::ImportValue": "VpcStack:ExportsOutputRefVPCvpcdemopublicsubnetSubnet1SubnetDC51A0426DA90CE9"
+                      },
+                      {
+                        "Fn::ImportValue": "VpcStack:ExportsOutputRefVPCvpcdemopublicsubnetSubnet2SubnetB4FAC5544163A768"
+                      }
+                    ],
+                    "type": "application"
+                  }
+                },
                 "constructInfo": {
-                  "fqn": "@aws-cdk/core.CfnCondition",
+                  "fqn": "@aws-cdk/aws-elasticloadbalancingv2.CfnLoadBalancer",
+                  "version": "1.134.0"
+                }
+              },
+              "alb-listener": {
+                "id": "alb-listener",
+                "path": "AlbStack/alb/alb-listener",
+                "children": {
+                  "Resource": {
+                    "id": "Resource",
+                    "path": "AlbStack/alb/alb-listener/Resource",
+                    "attributes": {
+                      "aws:cdk:cloudformation:type": "AWS::ElasticLoadBalancingV2::Listener",
+                      "aws:cdk:cloudformation:props": {
+                        "defaultActions": [
+                          {
+                            "type": "forward",
+                            "targetGroupArn": {
+                              "Ref": "albalblisteneralblistenertargetGroup7B3DFF2E"
+                            }
+                          }
+                        ],
+                        "loadBalancerArn": {
+                          "Ref": "alb8A8B13C2"
+                        },
+                        "port": 80,
+                        "protocol": "HTTP"
+                      }
+                    },
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/aws-elasticloadbalancingv2.CfnListener",
+                      "version": "1.134.0"
+                    }
+                  },
+                  "alb-listener-targetGroup": {
+                    "id": "alb-listener-targetGroup",
+                    "path": "AlbStack/alb/alb-listener/alb-listener-targetGroup",
+                    "children": {
+                      "Resource": {
+                        "id": "Resource",
+                        "path": "AlbStack/alb/alb-listener/alb-listener-targetGroup/Resource",
+                        "attributes": {
+                          "aws:cdk:cloudformation:type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+                          "aws:cdk:cloudformation:props": {
+                            "healthCheckPath": "/",
+                            "matcher": {
+                              "httpCode": "200"
+                            },
+                            "port": 80,
+                            "protocol": "HTTP",
+                            "targetGroupAttributes": [
+                              {
+                                "key": "stickiness.enabled",
+                                "value": "false"
+                              }
+                            ],
+                            "targetType": "instance",
+                            "vpcId": {
+                              "Fn::ImportValue": "VpcStack:ExportsOutputRefVPCB9E5F0B4BD23A326"
+                            }
+                          }
+                        },
+                        "constructInfo": {
+                          "fqn": "@aws-cdk/aws-elasticloadbalancingv2.CfnTargetGroup",
+                          "version": "1.134.0"
+                        }
+                      }
+                    },
+                    "constructInfo": {
+                      "fqn": "@aws-cdk/aws-elasticloadbalancingv2.ApplicationTargetGroup",
+                      "version": "1.134.0"
+                    }
+                  }
+                },
+                "constructInfo": {
+                  "fqn": "@aws-cdk/aws-elasticloadbalancingv2.ApplicationListener",
+                  "version": "1.134.0"
+                }
+              }
+            },
+            "constructInfo": {
+              "fqn": "@aws-cdk/aws-elasticloadbalancingv2.ApplicationLoadBalancer",
+              "version": "1.134.0"
+            }
+          },
+          "CDKMetadata": {
+            "id": "CDKMetadata",
+            "path": "AlbStack/CDKMetadata",
+            "children": {
+              "Default": {
+                "id": "Default",
+                "path": "AlbStack/CDKMetadata/Default",
+                "constructInfo": {
+                  "fqn": "@aws-cdk/core.CfnResource",
+                  "version": "1.132.0"
+                }
+              }
+            },
+            "constructInfo": {
+              "fqn": "@aws-cdk/core.Construct",
+              "version": "1.132.0"
+            }
+          },
+          "Exports": {
+            "id": "Exports",
+            "path": "AlbStack/Exports",
+            "children": {
+              "Output{\"Ref\":\"albalblisteneralblistenertargetGroup7B3DFF2E\"}": {
+                "id": "Output{\"Ref\":\"albalblisteneralblistenertargetGroup7B3DFF2E\"}",
+                "path": "AlbStack/Exports/Output{\"Ref\":\"albalblisteneralblistenertargetGroup7B3DFF2E\"}",
+                "constructInfo": {
+                  "fqn": "@aws-cdk/core.CfnOutput",
                   "version": "1.132.0"
                 }
               }
@@ -1919,15 +1816,7 @@
                                       {
                                         "Ref": "AWS::Partition"
                                       },
-                                      ":logs:",
-                                      {
-                                        "Ref": "AWS::Region"
-                                      },
-                                      ":",
-                                      {
-                                        "Ref": "AWS::AccountId"
-                                      },
-                                      ":log-group:/aws/codebuild/",
+                                      ":logs:ap-southeast-1:493752203558:log-group:/aws/codebuild/",
                                       {
                                         "Ref": "MyProject39F7B0AE"
                                       }
@@ -1942,15 +1831,7 @@
                                       {
                                         "Ref": "AWS::Partition"
                                       },
-                                      ":logs:",
-                                      {
-                                        "Ref": "AWS::Region"
-                                      },
-                                      ":",
-                                      {
-                                        "Ref": "AWS::AccountId"
-                                      },
-                                      ":log-group:/aws/codebuild/",
+                                      ":logs:ap-southeast-1:493752203558:log-group:/aws/codebuild/",
                                       {
                                         "Ref": "MyProject39F7B0AE"
                                       },
@@ -1977,15 +1858,7 @@
                                     {
                                       "Ref": "AWS::Partition"
                                     },
-                                    ":codebuild:",
-                                    {
-                                      "Ref": "AWS::Region"
-                                    },
-                                    ":",
-                                    {
-                                      "Ref": "AWS::AccountId"
-                                    },
-                                    ":report-group/",
+                                    ":codebuild:ap-southeast-1:493752203558:report-group/",
                                     {
                                       "Ref": "MyProject39F7B0AE"
                                     },
@@ -2050,7 +1923,7 @@
                     },
                     "source": {
                       "type": "NO_SOURCE",
-                      "buildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"runtime_versions\": {\n        \"nodejs\": 12\n      },\n      \"commands\": [\n        \"echo \\\"===== Build start ======\\\"\",\n        \"n latest\",\n        \"npm -v\",\n        \"npm install -g aws-cdk \",\n        \"npm install -g typescript\",\n        \"cdk --version\",\n        \"git version\",\n        \"git clone https://github.com/Phuthuyxam/aws-study.git\",\n        \"ls\",\n        \"cd aws-study\",\n        \"ls\",\n        \"aws --version\",\n        \"npm install\",\n        \"cdk deploy VpcStack --require-approval never\",\n        \"cdk deploy SgStack --require-approval never\",\n        \"cdk deploy Ec2Stack --require-approval never\"\n      ]\n    }\n  }\n}"
+                      "buildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"runtime_versions\": {\n        \"nodejs\": 12\n      },\n      \"commands\": [\n        \"echo \\\"===== Build start ======\\\"\",\n        \"n latest\",\n        \"npm -v\",\n        \"npm install -g aws-cdk \",\n        \"npm install -g typescript\",\n        \"cdk --version\",\n        \"git version\",\n        \"git clone https://github.com/Phuthuyxam/aws-study.git\",\n        \"ls\",\n        \"cd aws-study\",\n        \"ls\",\n        \"aws --version\",\n        \"npm install\",\n        \"cdk deploy Ec2Stack --require-approval never\",\n        \"export VERSION=$(date +\\\\%Y\\\\%m\\\\%d\\\\%H\\\\%M\\\\%S)\",\n        \"export INSTANCE_ID=$(aws cloudformation describe-stacks --stack-name Ec2Stack --output text --query=\\\"Stacks[0].Outputs[?OutputKey=='webinstanceid'].OutputValue\\\")\",\n        \"export AMI_NAME=web-ami-$VERSION\",\n        \"export AMI_ID=$(aws ec2 create-image --instance-id $INSTANCE_ID --name $AMI_NAME --output text)\",\n        \"aws ec2 wait image-available --image-ids $AMI_ID\"\n      ]\n    }\n  }\n}"
                     },
                     "encryptionKey": "alias/aws/s3"
                   }
@@ -2075,14 +1948,6 @@
                 "path": "CodeBuildStack/CDKMetadata/Default",
                 "constructInfo": {
                   "fqn": "@aws-cdk/core.CfnResource",
-                  "version": "1.132.0"
-                }
-              },
-              "Condition": {
-                "id": "Condition",
-                "path": "CodeBuildStack/CDKMetadata/Condition",
-                "constructInfo": {
-                  "fqn": "@aws-cdk/core.CfnCondition",
                   "version": "1.132.0"
                 }
               }

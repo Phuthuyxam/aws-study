@@ -57,17 +57,18 @@ export class autoScalingStack extends cdk.Stack {
     */
 
 
-  
+  private autoScaling: autoscaling.AutoScalingGroup;
   constructor(scope: cdk.Construct,
               id: string,
               props: aslStackProps) {
     super(scope, id, props);
+        
         // create autoscalingGroup
-        const autoScalingGroup = new autoscaling.AutoScalingGroup(this, 'ASG', {
+        this.autoScaling = new autoscaling.AutoScalingGroup(this, 'ASG', {
             vpc : props.vpc,
             instanceType: ec2.InstanceType.of(ec2.InstanceClass.T3A, ec2.InstanceSize.MICRO),
             machineImage: ec2.MachineImage.lookup({
-                name: <string>process.env.INSTANCE_ID,
+                name: <string>process.env.AMI_NAME,
             }),
             securityGroup: props.sg.getAutoScalingSg(),
             minCapacity: 1,
@@ -79,7 +80,7 @@ export class autoScalingStack extends cdk.Stack {
             metricName: 'WorkerUtilization'
         });
         
-        autoScalingGroup.scaleOnMetric('ScaleToCPU', {
+        this.autoScaling.scaleOnMetric('ScaleToCPU', {
           metric: workerUtilizationMetric,
           scalingSteps: [
             { upper: 10, change: -1 },
@@ -92,6 +93,9 @@ export class autoScalingStack extends cdk.Stack {
           adjustmentType: autoscaling.AdjustmentType.CHANGE_IN_CAPACITY,
         });
 
-    }
+    };
 
+    getAutoscaling() {
+        return this.autoScaling;
+    }
 }
