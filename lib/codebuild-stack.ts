@@ -130,6 +130,9 @@ export class CodeBuildStack extends cdk.Stack {
 
                     // run - cdk - autoscaling + alb
 
+                    "cdk deploy AutoScalingStack --require-approval never",
+                    "cdk deploy AlbStack --require-approval never",
+
                   ],
                 },
               },
