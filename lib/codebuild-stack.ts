@@ -62,6 +62,7 @@ export class CodeBuildStack extends cdk.Stack {
                         "iam:*",
                         "autoscaling:*",
                         "elasticloadbalancing:*",
+                        "cloudwatch:*"
                     ],
                 }),
             ],

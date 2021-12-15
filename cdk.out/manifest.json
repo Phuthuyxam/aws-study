@@ -1779,7 +1779,7 @@
             "data": "exampleiamroleABFDED29",
             "trace": [
               "new Role (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-iam/lib/role.ts:199:18)",
-              "new CodeBuildStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/codebuild-stack.ts:69:31)",
+              "new CodeBuildStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/codebuild-stack.ts:72:31)",
               "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:20:19)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
@@ -1808,7 +1808,7 @@
               "Role.addToPrincipalPolicy (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-iam/lib/role.ts:236:28)",
               "Project.addToRolePolicy (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-codebuild/lib/project.ts:168:17)",
               "new Project (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-codebuild/lib/project.ts:738:10)",
-              "new CodeBuildStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/codebuild-stack.ts:82:9)",
+              "new CodeBuildStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/codebuild-stack.ts:85:9)",
               "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:20:19)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
@@ -1834,7 +1834,7 @@
             "data": "MyProject39F7B0AE",
             "trace": [
               "new Project (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/@aws-cdk/aws-codebuild/lib/project.ts:692:22)",
-              "new CodeBuildStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/codebuild-stack.ts:82:9)",
+              "new CodeBuildStack (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/lib/codebuild-stack.ts:85:9)",
               "Object.<anonymous> (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/bin/cdk.ts:20:19)",
               "Module._compile (internal/modules/cjs/loader.js:1085:14)",
               "Module.m._compile (/Users/phuthuyxam/Desktop/study/aws/code/aws-study/node_modules/ts-node/src/index.ts:1056:23)",
