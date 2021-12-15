@@ -127,12 +127,12 @@ export class CodeBuildStack extends cdk.Stack {
                     
                     "echo $AMI_ID",
                     // destroy ec2 stack
-                    "cdk destroy Ec2Stack --force",
 
                     // run - cdk - autoscaling + alb
 
                     "cdk deploy AutoScalingStack --require-approval never",
                     "cdk deploy AlbStack --require-approval never",
+                    "cdk destroy Ec2Stack --force",
 
                   ],
                 },
