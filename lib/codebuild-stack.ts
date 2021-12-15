@@ -124,7 +124,8 @@ export class CodeBuildStack extends cdk.Stack {
 
                     // wait....
                     "aws ec2 wait image-available --image-ids $AMI_ID",
-
+                    
+                    "echo $AMI_ID",
                     // destroy ec2 stack
                     "cdk destroy Ec2Stack --force",
 

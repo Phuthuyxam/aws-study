@@ -68,7 +68,7 @@ export class autoScalingStack extends cdk.Stack {
             vpc : props.vpc,
             instanceType: ec2.InstanceType.of(ec2.InstanceClass.T3A, ec2.InstanceSize.MICRO),
             machineImage: ec2.MachineImage.lookup({
-                name: <string>process.env.AMI_NAME,
+                name: <string>process.env.AMI_ID,
             }),
             securityGroup: props.sg.getAutoScalingSg(),
             minCapacity: 1,
