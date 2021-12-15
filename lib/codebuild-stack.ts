@@ -59,7 +59,9 @@ export class CodeBuildStack extends cdk.Stack {
                         "cloudformation:*",
                         "ec2:*",
                         "ssm:GetParameters",
-                        "iam:*"
+                        "iam:*",
+                        "autoscaling:*",
+                        "elasticloadbalancing:*",
                     ],
                 }),
             ],
@@ -117,7 +119,8 @@ export class CodeBuildStack extends cdk.Stack {
                     "cdk deploy Ec2Stack --require-approval never",
                     "export VERSION=$(date +\\%Y\\%m\\%d\\%H\\%M\\%S)",
                     
-                    `export INSTANCE_ID=$(aws cloudformation describe-stacks --stack-name Ec2Stack --output text --query="Stacks[0].Outputs[0].OutputValue")`,
+                    // `export INSTANCE_ID=$(aws cloudformation describe-stacks --stack-name Ec2Stack --output text --query="Stacks[0].Outputs[0].OutputValue")`,
+                    `export INSTANCE_ID=$(aws cloudformation describe-stacks --stack-name Ec2Stack --output text --query="Stacks[0].Outputs[?OutputKey=='webinstanceid'].OutputValue")`,
                     "export AMI_NAME=web-ami-$VERSION",
                     // create image
                     `export AMI_ID=$(aws ec2 create-image --instance-id $INSTANCE_ID --name $AMI_NAME --output text)`,
