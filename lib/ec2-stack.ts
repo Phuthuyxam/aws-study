@@ -32,7 +32,8 @@ export class Ec2Stack extends cdk.Stack {
         "yum install -y httpd",
         "systemctl start httpd",
         "systemctl enable httpd",
-        'echo "<h1>Hello World!</h1>" > /var/www/html/index.html'
+        "yum install git",
+        "git clone https://github.com/Phuthuyxam/aws-web-demo.git /var/www/html/"
     );
 
     this.ec2Private = new Instance(this, "Private-ec2", {
